@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murat Ozkol | Landing Progress</title>
+    <meta name="keywords" content="Murat Ozkol | Landing Progress"> 
+    <!-- google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:600px" href="css/mobile.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="text-center"; >MURAT ÖZKOL</h1>
+    
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#training">Eğitim</a></li>
+                    <li><a href="#ozgecmis">Özgeçmiş</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+    
+            </nav>
+        </div>
+        
+    </header>
+    
+    <section id="home">
+        <img src="images/murat3.jpg" alt="Murat Özkol" width="230px">
+
+    <div class="name">
+        <h2 class="heading-big">Murat Özkol</h2>
+        <p>Computer Programmer | Associate student</p>
+    </div>
+    <a href="#ozgecmis" class="btn btn-dark">Özgeçmişe Git</a>
+
+    </section>
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Eğitim Geçmişi</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Languages</h3>
+                <p>-Turkish<br>-English</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Programlama Dilleri</h3>
+                <p>-Python(Basic)<br>-C
+                    (Basic)<br>C#(Intermediate)<br>-Java(Basic)
+                </p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Eğitimler</h3>
+                <p>-Samsun Çarşamba High School<br><i>(2015-2019)</i><br><br>
+                    -Osmangazi Üniversitesi Meslek Yüksek Okulu<br><i>(2020-2022)</i></p>
+            </article>
+        </div>
+    </section>
+    <section id="ozgecmis">
+        <h3 class="text-center heading-medium">Hakkımda</h3><br><br><br>
+        <div class="container">
+            <div class="courses">
+                <p><i> Murat, 2001 yılında Samsun'un Çarşamba ilçesinde doğdum. Teknolojiye hep merakım olmuştur ve küçüklükten beri yazılımcı olmak istemişimdir. Bu sebeple Osmangazi Üniversitesinde Bilgisayar Programcılığı bölümünü okumaya karar verdim, öğrenimime Bilgisayar Mühendisliği bölümünde devam edeceğim ve iyi bir mühendis olacağım.</i></p><br><br><br><br><br><br>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-left col-md-4 col-sm-6">
+        <p class="about">
+            <span>Bana Ulaşın</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quae laudantium aliquid magnam ad molestias quo dignissimos. Id beatae, explicabo odio delectus maiores fugiat velit iure dicta libero qui voluptatibus!
+        </p>
+        <div class="icons" id="iletisim">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        </div>
+        <div class="footer-center col-md-4 col-sm-6">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>00555</span> Samsun, Carsamba</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p> (+90) 507 014 6620</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="#">murat.m.mz17@gmail.com</a></p>
+        </div>
+        </div>
+        <div class="footer-right col-md-4 col-sm-6">
+        </div>
+    </footer>
+
+
+</body>
+</html>
